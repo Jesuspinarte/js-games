@@ -30,7 +30,7 @@ export const getSpritesLocations = (states: AnimationState[]): SpriteLocationsBy
     const loc: SpriteLocation[] = [];
     const { frames, height, heightOffset, name, src, width } = states[i];
 
-    const positionY = heightOffset || 0;
+    const positionY = heightOffset ? heightOffset * height : 0;
 
     for (let j = 0; j < frames; ++j) {
       const positionX = j * width;
