@@ -12,7 +12,6 @@ export const game = () => {
         y: e.offsetY,
       })
     );
-    console.log(explotions);
   });
 
   const animate = () => {
