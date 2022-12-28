@@ -1,5 +1,5 @@
 import { Explotion } from '../game-objects/explotions/Explotion';
-import { GameObject } from '../game-objects/GameObject.';
+import { GameObject } from '../game-objects/GameObject';
 import { context, scene, SCENE_HEIGHT, SCENE_WIDTH } from '../utils/init';
 
 export const game = () => {

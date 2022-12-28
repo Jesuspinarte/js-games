@@ -2,11 +2,11 @@ import { animationImages, spriteAnimations } from '../../assets/sprites';
 import { DEFAULT_X, DEFAULT_Y } from '../../fixtures/gameObjectFixtures';
 import { SpriteData } from '../../types/types';
 import { animateSprites } from '../../utils/utils';
-import { GameObject, GameObjectProps } from '../GameObject.';
+import { GameObject, GameObjectProps } from '../GameObject';
 
 const SIZE_MODIFIER = 0.5;
 
-export interface ExplotionProps extends GameObjectProps {}
+export interface ExplotionProps extends GameObjectProps { }
 
 export class Explotion extends GameObject {
   timer: number = 0;
